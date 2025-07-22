@@ -1,0 +1,6 @@
+import pyqrcode
+from pyqrcode import QRCode
+content = input("Enter your url:")
+#Generate   QR CODE 
+url = pycode.creat(content)
+url.svg("solo.avg",scale = 8)
